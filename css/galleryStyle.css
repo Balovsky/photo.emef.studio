@@ -1,0 +1,164 @@
+.GalleryContainer{
+    /* background: blue; */
+    width: 80%;
+    margin: 0 auto;
+    /* height: 100vh; */
+}
+.filterButtonsContainer{
+    width: 80%;
+    margin: 40px auto 20px auto;
+    /* background: yellow; */
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 16px;
+}
+.btn{
+    /* display: inline-block; */
+    /* background: white; */
+    /* color: black; */
+    color: #333;
+    font-size: 18px;
+    margin: 20px;
+    padding: 5px;
+    position: relative;
+    overflow: hidden;
+    /* margin: 20px; */
+    /* margin-bottom: 20px; */
+    /* border: 2px solid yellow; */
+    font-weight: 600;
+    overflow: visible;
+}
+.btn::before{
+    content: "";
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    width: 100%;
+    height: 100%;
+    background: white;
+    /* border: 1px solid white; */
+    z-index: -1;
+    transition: transform 0.15s ease-out 0s;
+    /* border: 2px solid red; */
+}
+
+.btn:hover::before{
+    transform: translate(5px, -5px);
+}
+
+.btn::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 1px solid #EDBA58;
+    transition: transform 0.15s ease-out 0s;
+    z-index: -1;
+}
+.btn:hover::after{
+    transform: translate(-5px, 5px);
+    z-index: -1;
+}
+
+@keyframes fadeInOut {
+    0% { background: transparent;; }
+    50% { background: #EDBA58;; }
+    100% { background: transparent; }
+  }
+  
+  /* Klasy animacji */
+  .fadeInOut {
+    animation: fadeInOut 2s ease-in-out;
+  }
+
+.masonry-container {
+    margin: 0 auto;
+    width: 80%;
+    column-count: 4; /* Liczba kolumn */
+    column-gap: 10px; /* Przerwa między kolumnami */
+  }
+
+  .masonry-item {
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 10px; /* Odstęp między zdjęciami */
+    break-inside: avoid;
+    transition: all 0.32s ease;
+  }
+
+  .masonry-item img {
+    width: 100%;
+    display: block;
+  }
+  .masonry-item video {
+    width: 100%;
+    display: block;
+  }
+
+.fullScreenGallery{
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.7);
+  width: 100vw;
+  height: 100vh;
+  display: none;
+  place-items: center;
+  overflow: hidden;
+  z-index: 999;
+}
+.fullGalActiv{
+  display: grid;
+}
+.fullScreenGallery img{
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.fullScreenGallery video{
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.closeBtn{
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  /* width: 100px;
+  height: 100px; */
+  /* background: red; */
+}
+
+  @media (max-width: 768px) {
+    .masonry-container {
+      column-count: 2; /* Dwie kolumny dla urządzeń o szerokości mniejszej niż 768px */
+    }
+    .filterButtonsContainer{
+      width: 80%;
+      margin: 20px auto 20px auto;
+      /* background: yellow; */
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      color: white;
+      font-size: 16px;
+  }
+  .btn{
+
+    margin: 5px;
+
+
+}
+
+.fullScreenGallery{
+
+  background: rgba(0, 0, 0, 1);
+  width: 100vw;
+  height: 100vh;
+z-index: 999;
+  overflow: hidden;
+}
+  }

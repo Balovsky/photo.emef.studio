@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* overflow: hidden; */
+}
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+.threeWebssites{
+    display: flex;
+    flex-direction: row;
+}
+.headerIndex{
+    width: 100vw;
+    height: 120px;
+    background: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'Lato', sans-serif;
+    font-size: 44px;
+}
+.headerIndex img{
+    height: 100px;
+    object-fit: fill;
+    margin-right: 5px;
+}
+#logoName{
+    margin-left: 5px;
+}
+.coding, .photography, .graphic{
+    height: calc(100vh - 120px);
+    background: white;
+    flex: 1 1 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    font-size: 44px;
+    transition: flex 0.32s ease-in, letter-spacing 0.32s ease-in;
+    letter-spacing: 2px;
+    text-align: center;
+}
+a{
+    margin-top: 60px;
+    text-decoration: none;
+    border: none;
+    color: #000080;
+}
+.amination:hover{
+    flex: 2 2 0px;
+    letter-spacing: 10px;
+}
+/* .amination img{
+    width: 100%;
+    object-fit: fill;
+} */
+.coding{
+    background: url(../assets/indexAssets/111a.jpg) no-repeat;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-origin: content-box;
+    background-position: bottom;
+    font-family: "Anta", sans-serif;
+    font-weight: 700;
+}
+.photography{
+    background: url(../assets/indexAssets/222c.jpg) no-repeat ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    font-family: "Anta", sans-serif;
+    font-weight: 700;
+    
+}
+.graphic{
+    background: url(../assets/indexAssets/333b.jpg) no-repeat ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    font-family: "Anta", sans-serif;
+    font-weight: 700;
+}
+
+/* ###############TABLET################## */
+@media (max-width: 1366px) {
+    .coding, .photography, .graphic{
+        font-size: 44px;
+        /* display: none; */
+    }
+    a{
+        margin-top: 20px;
+        text-decoration: none;
+        border: none;
+        color: #000080;
+    }
+}
+
+
+/* *********** mobile view ********************************** */
+@media (max-width: 768px) {
+    .threeWebssites{
+        width: 100vw;
+        height: calc(100vh - 120px);
+        background: red;
+        display: flex;
+        flex-direction: column;
+    }
+    .coding, .photography, .graphic{
+        font-size: 24px;
+        /* display: none; */
+        background-repeat: no-repeat;
+        background-size: fill;
+        background-position: center;
+    }
+    a{
+        margin-top: 0px;
+        text-decoration: none;
+        border: none;
+        color: #000080;
+    }
+}

@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="../../assets/logo/favi.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <!-- <link rel="stylesheet" href="../css/globalStyle.css"> -->
+    <link rel="stylesheet" href="../../css/globalStyle.css">
+<link rel="stylesheet" href="../../css/configurationStyle.css">
+<!-- <link rel="stylesheet" href="../assets/viewer/style.css"> -->
+
+
+
+    <title>Configurator | eMeF</title>
+</head>
+<body>
+    <div class="cursor"></div>
+    <div class="upArrow">
+        <img src="../../assets/uptoup/icons8-slide-up-48.png" alt="">
+    </div>
+    <section class="section" id="config_first_section">
+        <nav id="topNavbar">
+            <div class="navBar" id="logo">
+                <a href="https://emef.studio/" id="logoBack">
+                    <img id="logoLogo" src="../../assets/logo/emef short.png" alt="">
+                    <span id="logoName">eMeF Studio</span>
+                </a>
+            </div>
+            <div class="navBar" id="subPages">
+                <!-- ahref to będzie -->
+                <a href="../index.html" class="subPage _blanc">home</a>
+                <a href="./configurator.html" class="subPage active">oferta</a>
+                <a href="./gallery.html" class="subPage">portfolio</a>
+                <a href="./price.html" class="subPage">cennik</a>
+                <a href="./about.html" class="subPage">o nas</a>
+                <a href="../index.html#third_section" class="subPage">kontakt</a>
+            </div>
+            <div class="hamburgerMenu toggleMenu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+        </div>
+        <div class="produktPhotoConfiguratorContainer">
+            <h1 class="konfigTitle">Masz wpływ na kompozycję twojego produktu!</h1>
+            <p class="configDesc">Masz dość standardowych zdjęć swoich produktów na nudnym białym tle? Chcesz wyróżnić swoje produkty i nadać im unikalny charakter? Mamy na to sposób!<br><br>Oferujemy nie tylko profesjonalne packshoty na jednolitym tle, ale także możliwość ożywienia Twoich produktów dzięki zdjęciom na tłach cieniowanych i aranżacyjnych. Dodaj swoim produktom trochę życia, eksperymentując z kolorami i atmosferą.<br><br>Sprawdź naszą ofertę i zobacz, jakie możliwości przed Tobą stoją. Daj swoim klientom powód do zatrzymania się i zainteresowania się Twoimi produktami od pierwszego spojrzenia!</p>
+            <p class="imageCongifTitle">Możliwości konifguracujne zdjęć/zdjeć 360</p>
+            <div class="configuratorContainer">
+                <div class="productImg">
+                    <img class="transparentBg" src="../../assets/configuratorPage/trans[arent bg.jpg" alt="">
+                    <img src="../../assets/configuratorPage/produkt bez tła.png" alt="">
+                    <img class="shadow" src="../../assets/configuratorPage/cien produktu.png" alt="">
+                    <img class="mirroring" src="../../assets/configuratorPage/odbiecie lustrzane.png" alt="">
+                    <img class="watterMark" src="../../assets/configuratorPage/watter mark.png" alt="">
+                </div>
+                <div class="productSettingsContainer">
+                    <div class="inputsContainer">
+                        <div class="inputContainer">
+                            <input type="checkbox" class="customCheckbox" id="transparentBg" name="vehicle1" value="">
+                            <label for="transparentBg"> Przeźroczyste tło (png)</label>
+                        </div>
+                        <div class="inputContainer">
+                            <input type="checkbox" class="customCheckbox" id="naturalShadow" name="naturalShadow" value="" checked>
+                            <label for="naturalShadow"> Naturalny cień produktu</label>
+                        </div>
+                        <div class="inputContainer">
+                            <input type="checkbox" class="customCheckbox" id="mirroring" name="mirroring" value="">
+                            <label for="mirroring">Odbicie lustrzane</label>
+                        </div>
+                        <div class="inputContainer">
+                            <input type="checkbox" class="customCheckbox" id="watterMark" name="watterMark" value="">
+                            <label for="watterMark">Znak wodny</label>
+                        </div>
+                        <div class="solidColorsContainer">
+                            <span class="bgTitle">Dowolny jednolity kolor tła:</span>
+                            <div class="solidColors">
+                                <div class="color color1"></div>
+                                <div class="color color2"></div>
+                                <div class="color color3"></div>
+                                <div class="color color4"></div>
+                                <div class="color color5"></div>
+                                <div class="color color6"></div>
+                                <div class="color color7"></div>
+                                <div class="color8">
+                                    <input type="color"  name="chooseBgProductColor" id="chooseBgProductColor">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="solidColorsContainer">
+                            <span class="bgTitle">Tła cieniowane:</span>
+                            <div class="solidColors">
+                                <div class="shadowBg">
+                                    <img class="shadowBgSrc" src="../../assets/configuratorPage/shadowBg/cacao.jpg" alt="">
+                                </div>
+                                <div class="shadowBg">
+                                    <img class="shadowBgSrc" src="../../assets/configuratorPage/shadowBg/crimson.jpg" alt="">
+                                </div>
+                                <div class="shadowBg">
+                                    <img class="shadowBgSrc" src="../../assets/configuratorPage/shadowBg/yellow sandbox.jpg" alt="">
+                                </div>
+                                <div class="shadowBg">
+                                    <img class="shadowBgSrc" src="../../assets/configuratorPage/shadowBg/nie wiem.jpg" alt="">
+                                </div>
+                                <div class="shadowBg">
+                                    <img class="shadowBgSrc" src="../../assets/configuratorPage/shadowBg/ocean blue.jpg" alt="">
+                                </div>
+                                <div class="shadowBg">
+                                    <img class="shadowBgSrc" src="../../assets/configuratorPage/shadowBg/red tbc.jpg" alt="">
+                                </div>
+                                <div class="shadowBg">
+                                    <img class="shadowBgSrc" src="../../assets/configuratorPage/shadowBg/olive green.jpg" alt="">
+                                </div>
+                                <div class="shadowBg">
+                                    <img class="shadowBgSrc" src="../../assets/configuratorPage/shadowBg/sky blue.jpg" alt="">
+                                </div>
+                                
+                            </div>
+                            
+                        </div>
+                        <div class="solidColorsContainer">
+                            <span class="bgTitle">Tła aranżacyjne:</span>
+                            <div class="solidColors">
+                                <div class="shadowBg">
+                                    <img class="shadowBgSrc" src="../../assets/bgProducts/tło 10.jpg" alt="">
+                                </div>
+                                <div class="shadowBg">
+                                    <img class="shadowBgSrc" src="../../assets/bgProducts/tło 777.jpg" alt="">
+                                </div>
+                                <div class="shadowBg">
+                                    <img class="shadowBgSrc" src="../../assets/bgProducts/tło 5.jpg" alt="">
+                                </div>
+                                <div class="shadowBg">
+                                    <img class="shadowBgSrc" src="../../assets/bgProducts/tło 666.jpg" alt="">
+                                </div>
+                                <div class="shadowBg">
+                                    <img class="shadowBgSrc" src="../../assets/bgProducts/tło 77.jpg" alt="">
+                                </div>
+                                <div class="shadowBg">
+                                    <img class="shadowBgSrc" src="../../assets/bgProducts/tło 88.jpg" alt="">
+                                </div>
+                                <div class="shadowBg">
+                                    <img class="shadowBgSrc" src="../../assets/bgProducts/tło 888.jpg" alt="">
+                                </div>
+                                <div class="shadowBg">
+                                    <img class="shadowBgSrc" src="../../assets/bgProducts/tło 9999.jpg" alt="">
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+            <div class="comparsonFps">
+                <h1 class="konfigTitle">Porównianie płynności zdjęć 360 stopni</h1>
+                <p class="configDesc">Poniżej przedstawiamy demonstrację, jak liczba klatek na sekundę (FPS) wpływa na płynność animacji. Poniżej znajdziesz cztery gify, z których każdy prezentuje różną liczbę klatek na sekundę.</p>
+                <div class="gifsContainer">
+                    <div class="gifContainerUp">
+                        <div class="gifContainer up">
+                            <p class="gitTitle focusDesc" >12 klatek na sekundę</p>
+                            <img src="../../assets/gifs/12 3s.gif" alt="">
+                            
+                        </div>
+                        <div class="gifContainer up">
+                            <p class="gitTitle">24 klatek na sekundę</p>
+                            <img src="../../assets/gifs/24 2s.gif" alt="">
+                            
+                        </div>
+                    </div>
+                    <div class="gifContainerDown">
+                        <div class="gifContainer">
+                            <img src="../../assets/gifs/40 2s.gif" alt="">
+                            <p class="gitTitle">48 klatek na sekundę</p>
+                        </div>
+                        <div class="gifContainer">
+                            <img src="../../assets/gifs/72 3s.gif" alt="">
+                            <p class="gitTitle">72 klatek na sekundę</p>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="productViewer">
+                <h1 class="konfigTitle">Interaktywny obrót 360 i 3d</h1>
+                <div class="viewersContainer">
+                    <div class="viewerContainer">
+                        <div id="viewer_content360" class="orvitvuStyl"></div>
+                    </div>
+                    <div class="viewerContainer">
+                        <div id="viewer_content3d"></div>
+                    </div>
+                    
+                </div>
+                
+            </div>
+        </div>
+    </section>
+    <div class="mobileSubPages">
+        <div class="mobileSubPagesContainer">
+            <a href="../index.html" class="subPage _blanc">home</a>
+            <a href="./configurator.html" class="subPage _blanc active">oferta</a>
+            <a href="./gallery.html" class="subPage">portfolio</a>
+            <a href="./price.html" class="subPage">cennik</a>
+            <a href="./about.html" class="subPage">o nas</a>
+            <a href="../index.html#emailForm" class="subPage">kontakt</a>
+        </div>
+        <div class="mobileSocials">
+            <a href="https://www.linkedin.com/" class="subPage" target="_blank">linkedin</a>
+            <a href="https://www.instagram.com/" class="subPage" target="_blank">Instagam</a>
+        </div>
+    </div>
+
+
+    <footer class="footerContainer">
+        <div class="topMenuFooter">
+            <div class="footerLogo">
+                <img src="../../assets/logo/emef short.png" alt="">
+                <span id="logoName">eMeF Studio</span></div>
+            <div class="footerAdress">
+                <div class="adressData">
+                    <span class="adress">eMeF Studio</span>
+                    <span class="adress"> e-mail: contact@emef.studio</span>
+                    <span class="adress">tel: 555 333 222</span>
+                    <span class="adress">ceo: Mariusz Franik</span>
+                </div>     
+            </div>
+            <div class="footerSubPages">
+                <div class="subPagesData">
+                    <a href="./configurator.html" class="subPageFooter">oferta</a>
+                    <a href="./gallery.html" class="subPageFooter">portfolio</a>
+                    <a href="./price.html" class="subPageFooter">cennik</a>
+                    <a href="./about.html" class="subPageFooter">o nas</a>
+                    <a href="../index.html#third_section" class="subPageFooter">kontakt</a>
+                </div>    
+                
+            </div>
+        </div>
+        <div class="bottomMenuFooter"><small>&copy; Copyright 2024, Mariusz Franik. All Rights Reserved</small></div>
+    </footer>
+    <!-- <script src="./orbitvu12/orbitvu.js"></script> -->
+    <script src="../../assets/viewer/360/orbitvu12/orbitvu.js"></script>
+    <!-- kod 3d  -->
+    <script>
+        inject_orbitvu(
+          "viewer_content3d",
+          "../../assets/viewer/3d/orbitvu12/",
+          undefined,
+          {
+            ovus_folder: "../../assets/viewer/3d/",
+            content2: "yes",
+            width: "100%",
+            height: "100%",
+          }
+        )
+    </script>
+
+    <!-- kod 360 deg -->
+    
+    <script>
+        inject_orbitvu(
+          "viewer_content360",
+          "../../assets/viewer/360/orbitvu12/",
+          undefined,
+          {
+            ovus_folder: "../../assets/viewer/360/",
+            content2: "yes",
+            width: "100%",
+            height: "100%",
+          }
+        )
+    </script>
+    <script src="../../js/configuratorPageApp.js"></script>
+</body>
+</html>
