@@ -1,0 +1,28 @@
+<html>
+  <head>
+    <title>test 3d</title>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <style>
+      body {
+        margin: 0px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="viewer_content"></div>
+    <script src="./orbitvu12/orbitvu.js"></script>
+    <script>
+        inject_orbitvu(
+          "viewer_content",
+          "./orbitvu12/",
+          undefined,
+          {
+            ovus_folder: "./",
+            content2: "yes",
+            width: "auto",
+            height: "auto",
+          }
+        )
+    </script>
+  </body>
+</html>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<orbitvu>
+ <properties>
+  <property name="name" type="text">360 72 klatki</property>
+  <property name="author" type="text">Mariusz Franik</property>
+  <property name="description" type="text"></property>
+  <property name="date" type="text">2023-05-16 16:41:17</property>
+  <property name="sku" type="text">360 72 klatki</property>
+  <property name="Category 1" type="text"></property>
+  <property name="Category 2" type="text"></property>
+  <property name="Numer listy" type="text"></property>
+  <property name="Logo" type="text">Bioeco</property>
+ </properties>
+ <sequence3d name="a_" hangles="72" vangles="1">
+  <scales>
+   <scale width="950" rows="1" height="950" tile_width="950" tile_height="950" cols="1" value="100.0"/>
+   <scale width="768" rows="1" height="768" tile_width="768" tile_height="768" cols="1" value="80.8"/>
+   <scale width="512" rows="1" height="512" tile_width="512" tile_height="512" cols="1" value="53.9"/>
+   <scale width="256" rows="1" height="256" tile_width="256" tile_height="256" cols="1" value="26.9"/>
+   <scale width="128" rows="1" height="128" tile_width="128" tile_height="128" cols="1" value="13.5"/>
+  </scales>
+  <images name="a_" maxWidth="950" maxHeight="950" ext="png"/>
+ </sequence3d>
+</orbitvu>

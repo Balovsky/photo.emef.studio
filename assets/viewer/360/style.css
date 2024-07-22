@@ -1,0 +1,9 @@
+body{
+    background: pink;
+}
+#viewer_content{
+    background: pink;
+}
+#viewer_content-obj-canvas{
+    background: red;
+}

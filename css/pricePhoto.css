@@ -1,0 +1,163 @@
+.priceContainer{
+    width: 80%;
+    margin: 0 auto;
+    /* background: #ffffff; */
+
+}
+.priceTitle {
+    /* margin-top: 400px; */
+    margin: 80px 0px 0px 0px;
+    color: #EDBA58;
+    font-size: 40px;
+}
+/* EDBA58 */
+.priceHeader{
+    margin-top: 20px;
+    color: white;
+    font-size: 24px;
+}
+.tableTitle{
+    color: #EDBA58;
+    font-size: 44px;
+    margin-top: 20px;
+    /* padding: ; */
+}
+.table_component {
+    margin: 20px 0px;
+    overflow: auto;
+    width: 100%;
+}
+
+.table_component table {
+    height: 100%;
+    width: 100%;
+    table-layout: fixed;
+    border-collapse: collapse;
+    border-spacing: 1px;
+    text-align: left;
+    font-size: 20px;
+}
+
+.table_component caption {
+    caption-side: top;
+    text-align: left;
+}
+
+.table_component th {
+    border: 1px solid #EDBA58;
+    color: #000000;
+    padding: 15px;
+    color: white;
+    font-size: 24px;
+}
+
+.table_component td {
+    border: 1px solid #EDBA58;
+    color: white;
+    padding: 10px;
+}
+.emailBtns{
+    /* display: inline-block; */
+    /* background: white; */
+    /* color: black; */
+    color: #EDBA58;
+    font-size: 24px;
+    margin: 20px;
+    padding: 15px;
+    position: relative;
+    overflow: hidden;
+    /* margin: 20px; */
+    /* margin-bottom: 20px; */
+    /* border: 2px solid yellow; */
+    overflow: visible;
+}
+.emailBtns::before{
+    content: "";
+    position: absolute;
+    top: 15px;
+    right: 10px;
+    width: 100%;
+    height: 100%;
+    /* background: white; */
+    border: 1px solid white;
+    z-index: -1;
+    transition: transform 0.15s ease-out 0s;
+    /* border: 2px solid red; */
+}
+
+.emailBtns:hover::before{
+    transform: translate(10px, -10px);
+}
+
+.emailBtns::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 1px solid white;
+    transition: transform 0.15s ease-out 0s;
+}
+.emailBtns:hover::after{
+    transform: translate(-15px, 15px);
+    z-index: -1;
+} 
+.askForPrince{
+    width: 100%;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: center;
+    /* margin: 0 auto; */
+    color: #EDBA58;
+}
+.askForPrince a{
+    color: #EDBA58;
+}
+
+/* ######## TABLET ################################## */
+@media (max-width: 1366px) {
+
+}
+
+/* ##################### MOBILE ##################### */
+@media (max-width: 768px) {
+    .priceContainer{
+        width: 90%;
+        margin: 0 auto;
+        /* background: #ffffff; */
+    }
+    .table_component th {
+        border: 1px solid #EDBA58;
+        color: #000000;
+        padding: 5px;
+        color: white;
+        font-size: 14px;
+    }
+    .table_component table {
+        /* border: 1px solid #dededf; */
+        height: 100%;
+        width: 100%;
+        table-layout: fixed;
+        /* border-collapse: collapse; */
+        /* border-spacing: 1px; */
+        text-align: left;
+        font-size: 14px;
+        padding: 0;
+    }
+    .table_component td {
+        border: 1px solid #EDBA58;
+        color: white;
+        padding:5px 0px 5px 5px;
+    }
+    .tableTitle{
+        color: #EDBA58;
+        font-size: 34px;
+        margin-top: 20px;
+        /* padding: ; */
+    }
+    .priceHeader{
+        font-size: 24px;
+    }
+}

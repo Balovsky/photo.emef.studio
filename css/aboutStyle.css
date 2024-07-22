@@ -1,0 +1,178 @@
+.aboutContainer{
+    margin: 0 auto;
+    width: 80%;
+    /* background: red; */
+    height: calc(100vh - 80px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+}
+.halfgG{
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0 ;
+    background: url(../assets/aboutPage/112.jpg);
+    z-index: -1;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.textAboutCotainer{
+    width: 60%;
+    color: white;
+    font-size: 20px;
+    /* overflow: hidden; */
+}
+
+.aboutTitle{
+    font-size: 54px;
+}
+.aboutContainer span{
+    display: block;
+}
+.aboutDesc{
+    font-size: 24px;
+}
+.aboutDescIcon{
+    font-size: 40px;
+    text-align: center;
+}
+.copyMailContainer{
+    width: 100%;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: center;
+    /* margin: 0 auto; */
+    /* color: #EDBA58; */
+}
+.emailBtns{
+    /* display: inline-block; */
+    /* background: white; */
+    /* color: black; */
+    color: #EDBA58;
+    font-size: 24px;
+    margin: 20px;
+    padding: 15px;
+    position: relative;
+    overflow: hidden;
+    /* margin: 20px; */
+    /* margin-bottom: 20px; */
+    /* border: 2px solid yellow; */
+    
+    overflow: visible;
+}
+.emailBtns::before{
+    content: "";
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    width: 100%;
+    height: 100%;
+    /* background: white; */
+    border: 1px solid white;
+    z-index: -1;
+    transition: transform 0.15s ease-out 0s;
+    /* border: 2px solid red; */
+}
+
+.emailBtns:hover::before{
+    transform: translate(5px, -5px);
+}
+
+.emailBtns::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 1px solid white;
+    transition: transform 0.15s ease-out 0s;
+    z-index: -1;
+}
+.emailBtns:hover::after{
+    transform: translate(-10px, 10px);
+    z-index: -1;
+} 
+.notification {
+    position: fixed;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #EDBA58;
+    padding: 10px 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    z-index: 999;
+  }
+  .socialIcons{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 40px;
+  }
+  .instagram, .linkedin, .behance{
+    width: 75px;
+    /* height: 75px; */
+    /* background: red; */
+    margin: 20px;
+  }
+  .socialA img{
+    width: 100%;
+    /* height: 100%; */
+  }
+  .socialA img{
+    width: 100%;
+    /* height: 100%; */
+  }
+  .socialA img{
+    width: 100%;
+    /* height: 100%; */
+  }
+
+  .instagram a, .linkedin a, .behance a{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+  }
+
+  @media (max-width: 1366px) {
+    .textAboutCotainer{
+        width: 80%;
+        color: white;
+        font-size: 18px;
+        /* overflow: hidden; */
+    }
+    .aboutDescIcon{
+        font-size: 30px;
+        text-align: center;
+    }
+    .copyMailContainer{
+        margin: 0px;
+    }
+  }
+  
+  /* ##################### MOBILE ##################### */
+  @media (max-width: 768px) {
+    .textAboutCotainer{
+        width: 100%;
+            
+    }
+    .aboutDesc{
+        font-size: 20px;
+    }
+    .aboutDescIcon{
+        font-size: 20px;
+        text-align: center;
+    }
+    .copyMailContainer{
+        margin: 0px;
+    }
+    .emailBtns{
+        margin: 10px;
+        font-size: 18px;
+    }
+  }

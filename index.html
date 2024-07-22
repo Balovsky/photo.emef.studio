@@ -1,11 +1,249 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pl">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <link rel="icon" type="image/x-icon" href="../../assets/logo/favi.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../../css/homeStyle.css">
+
+
+    <title>Photo Home | eMeF</title>
 </head>
 <body>
-    <h1>this is photo page</h1>
+    <div class="cursor"></div>
+    <div class="upArrow">
+        <img src="../../assets/uptoup/icons8-slide-up-48.png" alt="">
+    </div>
+    <section class="section" id="section_first">
+        <nav id="topNavbar">
+            <div class="navBar" id="logo">
+                <a href="https://emef.studio/" id="logoBack">
+                    <img id="logoLogo" src="../../assets/logo/emef short.png" alt="">
+                    <span id="logoName">eMeF Studio</span>
+                </a>
+            </div>
+            <div class="navBar" id="subPages">
+                <!-- ahref to będzie -->
+                <a href="index.html" class="subPage _blanc active">home</a>
+                <a href="./subpages/configurator.html" class="subPage _blanc">oferta</a>
+                <a href="./subpages/gallery.html" class="subPage">portfolio</a>
+                <a href="./subpages/price.html" class="subPage">cennik</a>
+                <a href="./subpages/about.html" class="subPage">o nas</a>
+                <a href="#third_section" class="subPage">kontakt</a>
+            </div>
+            <div class="hamburgerMenu toggleMenu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+        <div class="firstSectionMainContent">
+            <div class="firstTitle">PRZEDSTAW SWOJE PRODUKTY W NAJLEPSZYM <span class="yellowBgTitile">ŚWIETLE</span></div>
+            <div class="firstSectionDesc">DZIĘKI NASZYM ZDJĘCIOM PRODUKTOWYM</div>
+            <div class="arrowsToDown">
+                <div class="c-scroll-icon">
+                    <div class="c-scroll-icon-line-mask"><div class="c-scroll-icon-line"></div></div>
+                    <div class="c-scroll-icon-triangle">
+                        <div class="c-scroll-icon-triangle-mask first"><div class="c-scroll-icon-triangle-line first"></div></div>
+                        <div class="c-scroll-icon-triangle-mask right"><div class="c-scroll-icon-triangle-line right"></div></div>
+                        <div class="c-scroll-icon-triangle-mask left"><div class="c-scroll-icon-triangle-line left"></div></div>
+                        <div class="c-scroll-icon-triangle-mask last"><div class="c-scroll-icon-triangle-line last"></div></div>
+                    </div>
+            </div>
+        </div>
+
+    </section>
+    <div class="mobileSubPages">
+        <div class="mobileSubPagesContainer">
+            <a href="./index.html" class="subPage _blanc active">home</a>
+            <a href="./subpages/configurator.html" class="subPage _blanc">oferta</a>
+            <a href="./subpages/gallery.html" class="subPage">portfolio</a>
+            <a href="./subpages/price.html" class="subPage">cennik</a>
+            <a href="./subpages/about.html" class="subPage">o nas</a>
+            <a href="./index.html#emailForm" class="subPage">kontakt</a>
+        </div>
+        <div class="mobileSocials">
+            <a href="https://www.linkedin.com/" class="subPage" target="_blank">linkedin</a>
+            <a href="https://www.instagram.com/" class="subPage" target="_blank">Instagam</a>
+        </div>
+        
+    </div>
+    <section class="nonDisplayWhenHamburger" id="section_second">
+        <div class="secondMainContainer">
+            <div class="secondSHeader">
+                Czy wiesz, że 91% klientów twierdzi że zdjęcia są kluczowe 
+                dla podjęcia decyzji o zakupie?
+                <span class="headerDesc">Dlatego oferujemy:</span>
+            </div>
+            <div class="photoTypesColumns">
+                <div class="photosColumn">
+                    <div class="photosDesc">
+                        <span class="focusDesc">zdjęcia produktowe</span> 
+                        <br> 
+                        <span class="descTest">zdjęcia produktu z
+                        różnych kątów, aby wydobyć unikatowe 
+                       cechy oraz powtarzanosć ujęć w 
+                       przypaku wiekszej ilości produktów
+                        </span>
+                    </div>
+                    <div class="bgDesc"><span class="focusDesc">packshot</span> 
+                        <br> 
+                        <span class="descTest">Zdjęcia produktów 
+                            na jednolitym kolorze tła
+                            
+                            
+                        </span>
+                        </div>
+                </div>
+                <div class="photosColumn">
+                    <div class="photosDesc">
+                        <span class="focusDesc">zdjęcia 360</span> 
+                        <br> 
+                        <span class="descTest">zdjecia wykonywane w technologi 360 pozwalaja ukazać produkt w kazdej strony, przez co klient będzie mógł dokładnie zapoznać sie z produktem
+                        </span>
+                    </div>
+                    <div class="bgDesc"><span class="focusDesc">retusz</span> 
+                        <br> 
+                        <span class="descTest">Poprawa niedoskonałości
+                            oraz korekcja kolorów porduktów
+                        </span>
+                        </div>
+                </div>
+                <div class="photosColumn">
+                    <div class="photosDesc">
+                        <span class="focusDesc">video produktu</span> 
+                        <br> 
+                        <span class="descTest">film lub gif który ukazuje twój produkt na całym jego przekroju
+                        </span>
+                    </div>
+                    <div class="bgDesc"><span class="focusDesc">elastyczność</span> 
+                        <br> 
+                        <span class="descTest">Dowolna rozdzielczość 
+                            oraz kadrowanie co do piksela
+                        </span>
+                        </div>
+                </div>
+            </div>
+            <div class="secondSectionPhotoContainer"></div>
+        </div>
+    </section>
+    <section class="nonDisplayWhenHamburger" id="third_section">
+        <div class="emailHeader">WSPÓŁPRACA PYTANIA</div>
+        <div class="emailContainer">
+            <div class="emailLeftBox">
+                <p class="emailDesc">Wyceniamy usługi fotografii produktowej indywidualnie, dostosowując się do Twoich potrzeb. Każde zlecenie jest oceniane w oparciu o jego skomplikowanie, liczbę produktów, rodzaj sesji i inne czynniki. Skontaktuj się z nami, aby omówić szczegóły Twojego projektu i otrzymać spersonalizowaną ofertę. Jesteśmy elastycznymi wyceniaczami, gotowymi dostosować się do Twojego budżetu i zapewnić wysokiej jakości fotografie produktowe.</p>
+                <div class="questForPricing emailBtns">Zapytaj o wycenę<br> swojego produktu</div>
+            </div>
+           
+            <div class="emailRightBox" id="emailForm">
+                <div class="emailTitle emailHeader">Napisz do nas!</div>
+                <form name="contact" data-netlify="true" method="POST" class="formPhoto">
+                    <div class="contact">
+                        <input type="email" name="email" class="Icontact" placeholder="Adres email" required>
+                    </div>
+                    <div class="name">
+                        <input type="text" name="first-name" class="Iname" placeholder="Imię i nazwisko" required>
+                    </div>
+                    <div class="message">
+                        <textarea name="mess" id="message" class="mess" cols="30" placeholder="Treść wiadomości" required rows="10"></textarea>
+                    </div>
+                    <div class="buttonContainer">
+                        <button type="submit" class="sendBtn">Wyślij</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div id="sendingEmailPopup">
+            <p id="alertMessage"></p>
+        </div>
+    </section>
+    <!-- <section class="section" id="third_section">
+        <div class="skillsContainer">
+            <div class="skill">
+                <img class="skillImg" src="./assets/skillsSection/removeBG.jpg" alt="">
+                <div class="skillsTextContainer">
+                    <div class="skillTitle">USUWANIE TŁA</div>
+                    <div class="skillDesc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat quae, amet vitae praesentium quos ut labore, ducimus aliquam dolorum maxime minus quisquam? Repellendus perspiciatis iste aperiam, odio tenetur provident fugit!</div>
+                </div>
+            </div>
+            <div class="skill"></div>
+            <div class="skill"></div>
+            <div class="skill"></div>
+            <div class="skill"></div>
+        </div>
+        <div class="dotsSkills"></div>
+    </section> -->
+    <footer class="footerContainer">
+        <div class="topMenuFooter">
+            <div class="footerLogo">
+                <img src="../../assets/logo/emef short.png" alt="">
+                <span id="logoName">eMeF Studio</span></div>
+            <div class="footerAdress">
+                <div class="adressData">
+                    <span class="adress">eMeF Studio</span>
+                    <span class="adress"> e-mail: contact@emef.studio</span>
+                    <span class="adress">tel: 555 333 222</span>
+                    <span class="adress">ceo: Mariusz Franik</span>
+                </div>     
+            </div>
+            <div class="footerSubPages">
+                <div class="subPagesData">
+                    <a href="./subpages/configurator.html" class="subPageFooter">oferta</a>
+                    <a href="./subpages/gallery.html" class="subPageFooter">portfolio</a>
+                    <a href="./subpages/price.html" class="subPageFooter">cennik</a>
+                    <a href="./subpages/about.html" class="subPageFooter">o nas</a>
+                    <a href="#third_section" class="subPageFooter">kontakt</a>
+                </div>    
+                
+            </div>
+        </div>
+        <div class="bottomMenuFooter"><small>&copy; Copyright 2024, Mariusz Franik. All Rights Reserved</small></div>
+    </footer>
+    <script>
+ document.addEventListener("DOMContentLoaded", function() {
+        const form = document.querySelector("form");
+        form.addEventListener("submit", function(event) {
+            event.preventDefault(); // Zapobiegamy domyślnej akcji przeglądarki
+
+            const formData = new FormData(this);
+
+            fetch("/", {
+                method: "POST",
+                headers: { "Content-Type": "application/x-www-form-urlencoded" },
+                body: new URLSearchParams(formData).toString()
+            })
+            .then(() => {
+                showCustomAlert("Wiadomość została wysłana!");
+            setTimeout(hideCustomAlert, 5000);
+            form.reset();
+            })
+            .catch(error => {
+                showCustomAlert("Wystąpił błąd podczas wysyłania formularza: " + error);
+            setTimeout(hideCustomAlert, 5000);
+                
+            });
+        });
+    });
+
+    function showCustomAlert(message) {
+    const customAlert = document.getElementById("sendingEmailPopup");
+    const alertMessage = document.getElementById("alertMessage");
+    alertMessage.textContent = message;
+    customAlert.style.display = "grid";
+    customAlert.classList.add("sendingEmailPopup");
+    }   
+
+    function hideCustomAlert() {
+    const customAlert = document.getElementById("sendingEmailPopup");
+    customAlert.style.display = "none";
+    customAlert.classList.remove("sendingEmailPopup");
+    }
+    </script>
+    <!-- <script type="module" src="./objects.js"></script> -->
+    <script src="../../app.js"></script>
 </body>
 </html>
