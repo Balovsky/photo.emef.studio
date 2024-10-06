@@ -18,12 +18,6 @@ const galleryItems = [
     { src: '16.jpg', srct: '16.jpg', title: 'Obrazek 1', tags: 'packshoty'},
     { src: '17.jpg', srct: '17.jpg', title: 'Obrazek 1', tags: 'packshoty'},
     { src: 'gil9.gif', srct: 'gil9.gif', title: 'Obrazek 1', tags: '360'},
-    { src: 'video1.gif', srct: 'video1.gif', title: 'Obrazek 1', tags: 'video'},
-    { src: 'video3.gif', srct: 'video3.gif', title: 'Obrazek 1', tags: 'video'},
-    { src: 'video5.gif', srct: 'video5.gif', title: 'Obrazek 1', tags: 'video'},
-    { src: 'video6.gif', srct: 'video6.gif', title: 'Obrazek 1', tags: 'video'},
-    { src: 'video7.gif', srct: 'video7.gif', title: 'Obrazek 1', tags: 'video'},
-    { src: 'video8.gif', srct: 'video8.gif', title: 'Obrazek 1', tags: 'video'},
     { src: 'gil8.gif', srct: 'gil8.gif', title: 'Obrazek 1', tags: '360'},
     { src: 'gil7.gif', srct: 'gil7.gif', title: 'Obrazek 1', tags: 'video'},
     

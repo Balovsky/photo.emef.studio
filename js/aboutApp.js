@@ -9,7 +9,7 @@ const upBtn = document.querySelector('.upArrow')
 
 const customCursor = document.querySelector('.cursor')
 
-const emefMail = 'contact@emef.studio'
+const emefMail = 'info@emef.studio'
 const emailBtn = document.querySelector('.emailBtns')
 
 const subPages = document.querySelectorAll('.subPage')
