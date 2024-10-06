@@ -15,17 +15,15 @@ body{
     background: #333;
     /* -ms-overflow-style: none;
     scrollbar-width: none;  */
-    cursor: none;
+    /* cursor: none; */
     padding-top: env(safe-area-inset-top);
 }
 .active{
     /* margin-top: 20px; */
     color: #EDBA58;
 }
-a{
-    cursor: none;
-}
-.cursor{
+
+/* .cursor{
     width: 10px;
     height: 10px;
     background: white;
@@ -38,7 +36,7 @@ a{
     transform: translate(-50%, -50%);
     pointer-events: none;
     mix-blend-mode: difference;
-}
+} */
 .upArrow{
     width: 48px;
     height: 48px;
@@ -336,9 +334,7 @@ body.toggleMenu{
     background: #EDBA58;
     /* z-index: -1; */
 }
-a{
-    cursor: none;
-}
+
 
 /* ###############TABLET################## */
 @media (max-width: 1366px) {
@@ -519,7 +515,7 @@ a{
         opacity: 1;
         visibility: visible;
         transition: all 0.35s ease-in-out;
-        cursor: none;
+        /* cursor: none; */
     }
     .footerLogo{
         display: none;

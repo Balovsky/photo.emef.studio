@@ -7,7 +7,6 @@ const currentSection = document.querySelector('.mobileSubPages')
 const arrowToNextSection = document.querySelector('.arrowsToDown')
 const upBtn = document.querySelector('.upArrow')
 
-const customCursor = document.querySelector('.cursor')
 
 const subPages = document.querySelectorAll('.subPage')
 // const homeLogo = document.querySelector('#logoBack')
@@ -42,13 +41,13 @@ window.addEventListener('scroll', ()=>{
     }
 })
 
-window.addEventListener('mousemove', (e)=>{
-    let x = e.clientX
-    let y = e.clientY
-    customCursor.style.top = y + 'px'
-    customCursor.style.left = x + 'px'
+// window.addEventListener('mousemove', (e)=>{
+//     let x = e.clientX
+//     let y = e.clientY
+//     customCursor.style.top = y + 'px'
+//     customCursor.style.left = x + 'px'
 
-})
+// })
 
 btn.addEventListener('click', () =>{
     btn.classList.toggle('toggleMenu')
@@ -76,51 +75,51 @@ upBtn.addEventListener('click', ()=>{
 })
 
 
-subPages.forEach(subPage => {
-    subPage.addEventListener('mouseenter', () =>{
-        customCursor.style.transform = `scale(6)`
-    })
-    subPage.addEventListener('mouseleave', () =>{
-        customCursor.style.transform = `scale(1)`
-    })
-})
+// subPages.forEach(subPage => {
+//     subPage.addEventListener('mouseenter', () =>{
+//         customCursor.style.transform = `scale(6)`
+//     })
+//     subPage.addEventListener('mouseleave', () =>{
+//         customCursor.style.transform = `scale(1)`
+//     })
+// })
 
-homeLogo.addEventListener('mouseenter', () =>{
-        customCursor.style.transform = `scale(6)`
-    })
-homeLogo.addEventListener('mouseleave', () =>{
-    customCursor.style.transform = `scale(1)`
-    })
+// homeLogo.addEventListener('mouseenter', () =>{
+//         customCursor.style.transform = `scale(6)`
+//     })
+// homeLogo.addEventListener('mouseleave', () =>{
+//     customCursor.style.transform = `scale(1)`
+//     })
 
-    hometext.addEventListener('mouseenter', () =>{
-        customCursor.style.transform = `scale(6)`
-        customCursor.style.mixBlendMode = 'difference';
-        customCursor.style.backgroundColor = '#EDBA58';
-    })
-    hometext.addEventListener('mouseleave', () =>{
-    customCursor.style.transform = `scale(1)`
-    customCursor.style.mixBlendMode = 'difference';
-            customCursor.style.backgroundColor = 'white';
-    })
+//     hometext.addEventListener('mouseenter', () =>{
+//         customCursor.style.transform = `scale(6)`
+//         customCursor.style.mixBlendMode = 'difference';
+//         customCursor.style.backgroundColor = '#EDBA58';
+//     })
+//     hometext.addEventListener('mouseleave', () =>{
+//     customCursor.style.transform = `scale(1)`
+//     customCursor.style.mixBlendMode = 'difference';
+//             customCursor.style.backgroundColor = 'white';
+//     })
 
 
-    interactiveGrowArray.forEach(grow => {
-        grow.addEventListener('mouseenter', () =>{
-            // customCursor.classList.add('grow')
-            customCursor.style.transform = `scale(10)`
-            customCursor.style.mixBlendMode = 'difference';
-            customCursor.style.backgroundColor = '#EDBA58';
-        })
-        grow.addEventListener('mouseleave', () =>{
-            customCursor.style.transform = `scale(1)`
-            customCursor.style.mixBlendMode = 'difference';
-            customCursor.style.backgroundColor = 'white';
-        })
-    })
+    // interactiveGrowArray.forEach(grow => {
+    //     grow.addEventListener('mouseenter', () =>{
+    //         // customCursor.classList.add('grow')
+    //         customCursor.style.transform = `scale(10)`
+    //         customCursor.style.mixBlendMode = 'difference';
+    //         customCursor.style.backgroundColor = '#EDBA58';
+    //     })
+    //     grow.addEventListener('mouseleave', () =>{
+    //         customCursor.style.transform = `scale(1)`
+    //         customCursor.style.mixBlendMode = 'difference';
+    //         customCursor.style.backgroundColor = 'white';
+    //     })
+    // })
 
-    arrowsToDown.addEventListener('mouseenter', () =>{
-        customCursor.style.transform = `scale(6)`
-    })
-    arrowsToDown.addEventListener('mouseleave', () =>{
-    customCursor.style.transform = `scale(1)`
-    })
+    // arrowsToDown.addEventListener('mouseenter', () =>{
+    //     customCursor.style.transform = `scale(6)`
+    // })
+    // arrowsToDown.addEventListener('mouseleave', () =>{
+    // customCursor.style.transform = `scale(1)`
+    // })
