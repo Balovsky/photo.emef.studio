@@ -131,6 +131,94 @@
   height: 100px; */
   /* background: red; */
 }
+.galleryContainer{
+  padding: 60px 0px;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.nGY2Icon-ok:before {
+  content: '\e808';
+  position: absolute;
+  top: 9px;
+  left: 0px;
+
+}
+
+.nGY2Icon-circle-empty:before {
+  position: absolute;
+  top: 9px;
+  left: 0px;
+
+}
+.nGY2Navigationbar .nGY2NavigationbarItem{
+  display: inline-block;
+  background: transparent !important;
+  /* color: black; */
+  color: #333 !important;
+  font-size: 18px;
+  margin: 20px;
+  padding: 5px;
+  position: relative;
+  overflow: hidden;
+  /* margin: 20px; */
+  /* margin-bottom: 20px; */
+  /* border: 2px solid yellow; */
+  font-weight: 600;
+  overflow: visible;
+  border-radius: 0px;
+}
+
+.nGY2Navigationbar .nGY2NavigationbarItem::before{
+  content: "";
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  width: 100%;
+  height: 100%;
+  background: white;
+  z-index: -1;
+  transition: transform 0.15s ease-out 0s;
+
+}
+.nGY2Navigationbar .nGY2NavigationbarItem::after{
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 1px solid #EDBA58;
+  transition: transform 0.15s ease-out 0s;
+  z-index: -1;
+}
+
+.nGY2Navigationbar .nGY2NavigationbarItem:hover::before{
+  transform: translate(5px, -5px);
+  transition: all 0.3s ease;
+}
+
+
+.nGY2Navigationbar .nGY2NavigationbarItem:hover::after{
+  transform: translate(-5px, 5px);
+  z-index: -1;
+  transition: all 0.3s ease;
+}
+
+.nGY2Icon-ok{
+  border-radius: 50%;
+  background: #EDBA58;
+  color: #EDBA58 !important;
+  transition: all 0.3s ease;
+}
+.nGY2Icon-circle-empty{
+
+  color: black !important;
+  transition: all 0.3s ease;
+}
+
+
+
 
   @media (max-width: 768px) {
     .masonry-container {

@@ -13,16 +13,15 @@ body::-webkit-scrollbar {
   }
 body{
     background: #333;
-    cursor: none;
 }
 a{
-    cursor: none;
+    /* cursor: none; */
 }
 .active{
     /* margin-top: 20px; */
     color: #EDBA58;
 }
-.cursor{
+/* .cursor{
     width: 10px;
     height: 10px;
     background: white;
@@ -35,7 +34,7 @@ a{
     transform: translate(-50%, -50%);
     pointer-events: none;
     mix-blend-mode: difference;
-}
+} */
 .grow{
     /* transition: all 0.35s ease-in-out; */
     transform: scale(6);
@@ -898,7 +897,7 @@ button{
     /* z-index: -1; */
 }
 a{
-    cursor: none;
+    /* cursor: none; */
 }
 #sendingEmailPopup{
     width: 500px;
